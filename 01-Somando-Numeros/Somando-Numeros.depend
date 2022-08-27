@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1659550441 source:c:\users\lih\documents\linguagem-c\somando-numeros\main.c
+	<stdio.h>
+	<stdlib.h>
+

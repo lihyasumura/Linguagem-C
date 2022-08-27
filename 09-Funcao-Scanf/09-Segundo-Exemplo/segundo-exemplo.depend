@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660851279 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c\08-sequencias-de-escape\segundo-exemplo\main.c
+	<stdio.h>
+	<stdlib.h>
+

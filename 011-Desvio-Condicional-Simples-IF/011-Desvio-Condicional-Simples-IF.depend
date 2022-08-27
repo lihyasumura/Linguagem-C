@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660925135 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c\011-desvio-condicional-simples-if\main.c
+	<stdio.h>
+	<stdlib.h>
+
