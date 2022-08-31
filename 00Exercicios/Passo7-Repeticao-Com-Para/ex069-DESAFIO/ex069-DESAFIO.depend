@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1661955600 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo7-repeticao-com-para\ex069-desafio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

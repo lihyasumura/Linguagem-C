@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1661622264 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo3-condicoes-compostas\ex030\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1661624861 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo3-condicoes-compostas\ex030-desafio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1661879858 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo5-enquanto-com-flag\ex059\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+

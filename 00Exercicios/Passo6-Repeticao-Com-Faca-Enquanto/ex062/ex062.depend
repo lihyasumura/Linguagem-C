@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1661885461 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo6-repeticao-com-faca-enquanto\ex062\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

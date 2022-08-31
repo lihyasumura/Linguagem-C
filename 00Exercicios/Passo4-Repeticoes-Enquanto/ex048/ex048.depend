@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1661868082 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo4-repeticoes-enquanto\ex048\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
