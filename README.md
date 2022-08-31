@@ -1,2 +1,2 @@
-# Linguagem-C-Boson-Treinamentos
+# Linguagem-C
  Curso de Linguagem C por Fabio Reis
