@@ -21,17 +21,27 @@ int main()
     for (c = 0; c < 8; c++) {
         printf ("%da. IDADE: ", c + 1);
         scanf ("%d", &Idade[c]);
+        if (Idade[c] > Maior) {
+            Maior = Idade[c];
+        }
         Soma = Soma + Idade[c];
         Media = Soma / 8.0;
+
     }
-    printf ("\nMÉDIA DE IDADE: %3.1f\n", Media);
-    printf ("ÍNDICE DAS PESSOAS COM MAIS DE 25 ANOS: \n");
+    printf ("\n -- MÉDIA DE IDADE: %3.1f\n", Media);
+    printf (" -- ÍNDICE DAS PESSOAS COM MAIS DE 25 ANOS: \n");
     for (c = 0; c < 8; c++) {
         if (Idade[c] > 25) {
             printf ("[ %2d ]", c);
         }
     }
-    printf ("\nMAIOR IDADE DIGITADA: %2d", Maior);
+    printf ("\n -- MAIOR IDADE DIGITADA: %2d", Maior);
+    printf ("\n -- A MAIOR IDADE ESTÁ NOS SEGUINTES ÍNDICES: \n");
+    for (c = 0; c < 8; c++) {
+        if (Idade[c] == Maior) {
+            printf ("[ %2d ]", c);
+        }
+    }
     printf ("\n");
     return 0;
 }
