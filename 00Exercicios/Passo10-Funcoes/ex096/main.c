@@ -1,10 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include <math.h>
 #include <string.h>
 
+float Media(float N1, float N2) {
+float med, Soma, Resultado;
+    Soma = N1 + N2;
+    med = Soma / 2.0;
+    printf ("A soma de %3.1f com %3.1f é %4.2f\n", N1, N2, Soma);
+    printf ("A média é de %3.1f\n", med);
+    return Resultado;
+}
+
 char R[] = "S";
-float N1, N2, Media(), Resultado;
+float N1, N2, Resultado;
 
 int main()
 {
@@ -31,11 +41,4 @@ int main()
         printf ("ATÉ A PRÓXIMA...\n");
     }
     return 0;
-}
-
-float Media(N1, N2) {
-float med;
-    med = (N1 + N2) / 2.0;
-    printf ("A média é de %3.1f\n", med);
-    return Resultado;
 }
