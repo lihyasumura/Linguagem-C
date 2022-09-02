@@ -5,18 +5,19 @@
 
 
 float Media(float N1, float N2) {
-float Med, Resultado;
-    Med = (N1 + N2) / 2.0;
-    printf ("MÉDIA: %3.1f\n", Med);
+float Resultado;
+    Resultado = (N1 + N2) / 2.0;
+    printf ("MÉDIA: %3.1f\n", Resultado);
     return Resultado;
 }
-float Situacao(Med) {
+float Situacao(float Resultado) {
 float Situation;
-    if ((Med >= 0.0) && (Med < 5.0)) {
+    printf ("SITUAÇÃO: ");
+    if ((Resultado >= 0.0) && (Resultado < 5.0)) {
         printf ("REPROVADO!\n");
-    } else if ((Med > 4.9) && (Med < 7.0)) {
+    } else if ((Resultado > 4.9) && (Resultado < 7.0)) {
         printf ("EM RECUPERAÇÃO!\n");
-    } else if ((Med > 6.0) && (Med < 10.1)) {
+    } else if ((Resultado > 6.9) && (Resultado < 10.1)) {
         printf ("APROVADO!\n");
     } else {
         printf ("CÁLCULO INVÁLIDO!\n");
@@ -46,8 +47,7 @@ int main()
         scanf ("%f", &N2);
         printf ("\n");
         Resultado = Media(N1, N2);
-        printf ("SITUAÇÃO: ");
-        Situation = Situacao(Med);
+        Situation = Situacao(Resultado);
         printf ("CALCULAR NOVAMENTE [ S/N ]? ");
         scanf ("%s", R);
         strupr(R);
