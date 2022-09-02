@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1662136581 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\passo10-funcoes\ex096\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
