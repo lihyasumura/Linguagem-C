@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1662399382 source:c:\users\liiiiih\documents\estudo-ti-atualizado\linguagem-c-boson-treinamentos\00exercicios\001-pedra-papel-tesoura\pedra-papel-tesoura\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
