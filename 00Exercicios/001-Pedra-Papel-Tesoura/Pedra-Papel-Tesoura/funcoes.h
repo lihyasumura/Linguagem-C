@@ -15,7 +15,6 @@ void Menu() {
     printf ("[ 5 ] RESULTADO\n");
     printf ("*************************************\n");
     printf("\n");
-    return 0;
 }
 
 // ================== ESCOLHA ======================//
@@ -35,7 +34,6 @@ void Escolha() {
         Resultado();
     break;
     }
-    return 0;
 }
 
 // ================= COMPUTADOR ====================//
@@ -53,7 +51,6 @@ void Computador() {
         printf ("COMPUTADOR: TESOURA\n");
     break;
     }
-    return 0;
 }
 
 // ================= GANHADOR =======================//
@@ -82,7 +79,6 @@ void Ganhador() {
         printf ("Empate!\n");
     }
     printf ("\n");
-    return 0;
 }
 
 // ================ MOSTRA RESULTADO ================//
@@ -91,7 +87,6 @@ void Resultado() {
     printf ("SEUS PONTOS: %d\n", PontoVC);
     printf ("PONTOS DO COMPUTADOR: %d\n", PontoPC);
     printf ("EMPATES: %d\n", Empate);
-    return 0;
 }
 
 #endif // FUNCOES_H_INCLUDED
